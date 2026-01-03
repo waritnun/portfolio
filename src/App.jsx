@@ -142,7 +142,7 @@ export default function App() {
 
               <div className="cta">
                 <a className="btn btn-primary" href="#contact">Contact me</a>
-                <a className="btn" href={profile.resumeUrl} target="_blank" rel="noopener">
+                <a className="btn" href="resume.pdf" target="_blank" rel="noopener">
                   View Resume (PDF)
                 </a>
                 <a className="btn" href={profile.github} target="_blank" rel="noopener">
