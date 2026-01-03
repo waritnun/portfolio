@@ -9,7 +9,7 @@ export default function App() {
     email: "waritnunsakulklang@gmail.com",
     github: "https://github.com/waritnun",
     linkedin: "https://www.linkedin.com/in/wsakulklang",
-    resumeUrl: "/resume.pdf", // put resume.pdf in /public
+    resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
     lookingFor: "Back-End / Full-Stack Internship",
     focus: ["REST APIs", "Cloud Storage", "Async Pipelines"],
   }), []);
